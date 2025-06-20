@@ -43,7 +43,7 @@ Esta é uma aplicação web simples para cadastro, edição, listagem e exclusã
 
 2. Com o Winrar extraia a pasta node_modules
    
-4. abra um terminal bash e digite:
+4. abra um terminal e digite:
 	node server.js
 
 5. abra no navegador uma nova aba e digite o seguinte endereço
