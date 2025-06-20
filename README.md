@@ -33,7 +33,6 @@ Esta é uma aplicação web simples para cadastro, edição, listagem e exclusã
 ### Pré-requisitos
 
 - Node.js instalado (recomendo versão 16+)
-- NPM (gerenciador de pacotes do Node.js)
 
 ---
 
