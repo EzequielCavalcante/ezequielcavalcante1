@@ -1,0 +1,13 @@
+<%- include('partials/header', { title: 'Acesso Administrativo' }) %>
+<h2>Área Restrita</h2>
+<p>Digite a senha de administrador para visualizar os usuários cadastrados.</p>
+
+<form action="/usuarios" method="POST">
+  <label>Senha de admin:
+    <input type="password" name="adminPass" required>
+  </label>
+  <button type="submit">Entrar</button>
+</form>
+
+<a href="/">Voltar</a>
+<%- include('partials/footer') %>

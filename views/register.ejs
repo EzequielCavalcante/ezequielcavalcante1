@@ -1,0 +1,26 @@
+<%- include('partials/header', { title: user ? 'Editar Usuário' : 'Registrar-se' }) %>
+<h2><%= user ? 'Editar Conta' : 'Registrar-se' %></h2>
+
+<form action="<%= user ? '/usuarios/edit/' + user.id : '/register' %>" method="POST">
+  <label>Usuário:
+    <input type="text" name="username" value="<%= user ? user.username : '' %>" required>
+  </label>
+
+  <label>Email:
+    <input type="email" name="email" value="<%= user ? user.email : '' %>" required>
+  </label>
+
+  <label>Senha:
+   <input
+  type="text"
+  name="password"
+  value="<%= user ? user.password : '' %>"
+  required
+>
+  </label>
+
+  <button type="submit">Salvar</button>
+</form>
+
+<a href="<%= user ? '/usuarios' : '/' %>">Voltar</a>
+<%- include('partials/footer') %>
