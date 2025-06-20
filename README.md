@@ -33,6 +33,7 @@ Esta é uma aplicação web simples para cadastro, edição, listagem e exclusã
 ### Pré-requisitos
 
 - Node.js instalado (recomendo versão 16+)
+- Winrar ou aplicativos semelhantes.
 
 ---
 
@@ -40,10 +41,12 @@ Esta é uma aplicação web simples para cadastro, edição, listagem e exclusã
 
 1. Clone ou baixe o projeto
 
-2. abra um terminal bash e digite:
+2. Com o Winrar extraia a pasta node_modules
+   
+4. abra um terminal bash e digite:
 	node server.js
 
-3. abra no navegador uma nova aba e digite o seguinte endereço
+5. abra no navegador uma nova aba e digite o seguinte endereço
 	http://localhost:3000
 
 
